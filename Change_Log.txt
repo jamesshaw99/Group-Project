@@ -1,0 +1,4 @@
+04/03/19
+- Created unity project
+- Imported Standard Assets Package
+- Played around with making rooms with objects within unity and testing different lightings
