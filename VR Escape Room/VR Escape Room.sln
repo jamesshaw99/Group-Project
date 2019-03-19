@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Escape Room", "Assembly-CSharp.csproj", "{030B6913-CBB1-EC99-13B3-A37C5CDB48BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Escape Room", "VR Escape Room.csproj", "{10933956-F8CD-12E7-A286-567E0B001F4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Escape Room", "Assembly-CSharp-firstpass.csproj", "{EC6EE372-0003-B321-D287-972E6C516D39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Escape Room.Editor.Plugins", "VR Escape Room.Editor.Plugins.csproj", "{8D480DB8-FA32-8F46-A0B8-F8F966A7BBAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Escape Room", "Assembly-CSharp-Editor-firstpass.csproj", "{01940A70-64EB-E782-063D-771F848E1B76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VR Escape Room.Plugins", "VR Escape Room.Plugins.csproj", "{92291C31-EEA9-1E1E-D37B-4474AE5F5371}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{030B6913-CBB1-EC99-13B3-A37C5CDB48BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{030B6913-CBB1-EC99-13B3-A37C5CDB48BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{030B6913-CBB1-EC99-13B3-A37C5CDB48BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{030B6913-CBB1-EC99-13B3-A37C5CDB48BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC6EE372-0003-B321-D287-972E6C516D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC6EE372-0003-B321-D287-972E6C516D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC6EE372-0003-B321-D287-972E6C516D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC6EE372-0003-B321-D287-972E6C516D39}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01940A70-64EB-E782-063D-771F848E1B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01940A70-64EB-E782-063D-771F848E1B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01940A70-64EB-E782-063D-771F848E1B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01940A70-64EB-E782-063D-771F848E1B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10933956-F8CD-12E7-A286-567E0B001F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10933956-F8CD-12E7-A286-567E0B001F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10933956-F8CD-12E7-A286-567E0B001F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10933956-F8CD-12E7-A286-567E0B001F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D480DB8-FA32-8F46-A0B8-F8F966A7BBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D480DB8-FA32-8F46-A0B8-F8F966A7BBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D480DB8-FA32-8F46-A0B8-F8F966A7BBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D480DB8-FA32-8F46-A0B8-F8F966A7BBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92291C31-EEA9-1E1E-D37B-4474AE5F5371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92291C31-EEA9-1E1E-D37B-4474AE5F5371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92291C31-EEA9-1E1E-D37B-4474AE5F5371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92291C31-EEA9-1E1E-D37B-4474AE5F5371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
