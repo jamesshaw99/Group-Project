@@ -1,4 +1,32 @@
+2/03/19
+- Uploaded the Pitch presentation to the Github
+
 04/03/19
 - Created unity project
 - Imported Standard Assets Package
 - Played around with making rooms with objects within unity and testing different lightings
+
+14/03/19
+- Updating documentation to add use cases
+- More testing different room design ideas
+- Changed the skybox to a space theme
+
+19/03/19
+- Removed unused and unecessary assets to reduce the total project size
+
+27/03/19
+- Added VR movement and interactability
+- Updated the format of the documentation 
+- Made sure that all information and screenshots on the documentation are up to date
+
+28/03/19
+- Captured a screen record of the project so far 
+- Removed the rigid body component on the player object as this was causing issues with the player movement
+
+15/04/19
+- Added glass walls and doors in the first room to section off where the first two puzzles will be placed
+- Added more information in the documentation about room designs and puzzle plans
+
+16/04/19
+- Added glass walls and doors in the second room to section off where the last two puzzles will be placed
+- Added door functionality through animations
