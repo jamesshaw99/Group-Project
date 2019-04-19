@@ -30,3 +30,7 @@
 16/04/19
 - Added glass walls and doors in the second room to section off where the last two puzzles will be placed
 - Added door functionality through animations
+
+19/04/19
+- Added objects in the third room to create a science lab theme room
+- Changed the skybox so that the earth is seen from outside the window
