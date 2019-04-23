@@ -36,7 +36,7 @@ public class door : MonoBehaviour
             midAnimator.SetBool("character_nearby", false);
         }
 
-        if ((this.transform.position.z < doorRoom1.transform.position.z + 2 && this.transform.position.z > doorRoom1.transform.position.z - 2) && (-19 < this.transform.position.x && this.transform.position.x < -16))
+        if ((this.transform.position.z < doorRoom1.transform.position.z + 2 && this.transform.position.z > doorRoom1.transform.position.z - 2) && (19 > this.transform.position.x && this.transform.position.x > 16))
         {
             room1Animator.SetBool("character_nearby", true);
         }
@@ -45,7 +45,7 @@ public class door : MonoBehaviour
             room1Animator.SetBool("character_nearby", false);
         }
 
-        if ((this.transform.position.z < doorRoom2.transform.position.z + 2 && this.transform.position.z > doorRoom2.transform.position.z - 2) && (-19 < this.transform.position.x && this.transform.position.x < -16))
+        if ((this.transform.position.z < doorRoom2.transform.position.z + 2 && this.transform.position.z > doorRoom2.transform.position.z - 2) && (19 > this.transform.position.x && this.transform.position.x > 16))
         {
             room2Animator.SetBool("character_nearby", true);
         }
