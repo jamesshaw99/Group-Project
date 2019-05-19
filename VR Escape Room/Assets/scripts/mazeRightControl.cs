@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class mazeRightControl : MonoBehaviour
 {
-    public AudioSource audio;
-    public float volume;
-    void Start()
-    {
-        audio = GetComponent<AudioSource>();
-    }
+
+
     void OnCollisionEnter(Collision collisionInfo)
     {
         if (collisionInfo.collider.name == "rightButton")
@@ -18,7 +14,7 @@ public class mazeRightControl : MonoBehaviour
             Debug.Log("right button is pressed");
             ballMovement.y = -5;
             ballMovement.x = 0;
-            audio.Play();
+
         }
     }
     void OnCollisionExit(Collision col)

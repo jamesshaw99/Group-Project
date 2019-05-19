@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class mazeDownScript : MonoBehaviour
 {
-    public AudioSource audio;
-    public float volume;
-    void Start()
-    {
-        audio = GetComponent<AudioSource>();
-    }
+
     void OnCollisionEnter(Collision collisionInfo)
     {
         if (collisionInfo.collider.name == "downButton")
@@ -18,7 +13,7 @@ public class mazeDownScript : MonoBehaviour
             Debug.Log("down button is pressed");
             ballMovement.x = 5;
             ballMovement.y = 0;
-            audio.Play();
+
         }
     }
     void OnCollisionExit(Collision col)

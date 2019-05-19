@@ -20,7 +20,6 @@ public class ballMovement : MonoBehaviour
         if(freezeBall == true)
         {
             rb.isKinematic = true;
-            Debug.Log("ball frozen");
         }
     }
 }
