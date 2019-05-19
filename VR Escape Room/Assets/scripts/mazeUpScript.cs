@@ -8,7 +8,7 @@ public class mazeUpScript : MonoBehaviour
  
     void OnCollisionEnter(Collision collisionInfo)
     {
-        if (collisionInfo.collider.name == "upButton")
+        if (collisionInfo.collider.name == "mazeController")
         {
             ballMovement.freezeBall = false;
             Debug.Log("up button is pressed");

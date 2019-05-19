@@ -7,7 +7,7 @@ public class mazeDownScript : MonoBehaviour
 
     void OnCollisionEnter(Collision collisionInfo)
     {
-        if (collisionInfo.collider.name == "downButton")
+        if (collisionInfo.collider.name == "mazeController")
         {
             ballMovement.freezeBall = false;
             Debug.Log("down button is pressed");

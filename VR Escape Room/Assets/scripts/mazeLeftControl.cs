@@ -8,7 +8,7 @@ public class mazeLeftControl : MonoBehaviour
 
     void OnCollisionEnter(Collision collisionInfo)
     {
-        if (collisionInfo.collider.name == "leftButton")
+        if (collisionInfo.collider.name == "mazeController")
         {
             ballMovement.freezeBall = false;
             Debug.Log("left button is pressed");
