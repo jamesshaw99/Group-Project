@@ -6,6 +6,8 @@ public class forcefield : MonoBehaviour
 
 {
     public GameObject obj;
+    public AudioSource BGM;
+
 
     void Start()
     {
@@ -21,6 +23,7 @@ public class forcefield : MonoBehaviour
             Debug.Log("HI");
             obj.SetActive(true);
             obj.GetComponent<Collider>().enabled = false;
+            BGM.Play();
         }
     }
     void OnCollisionExit(Collision col)

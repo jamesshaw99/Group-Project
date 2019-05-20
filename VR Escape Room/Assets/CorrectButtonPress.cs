@@ -8,7 +8,7 @@ public class CorrectButtonPress : MonoBehaviour
     public GameObject yCoordOnScreen;
     public GameObject finalResult;
     public GameObject error;
-
+    public AudioSource BGM;
     bool x = false;
     bool y = false;
     void Start()
@@ -39,6 +39,7 @@ public class CorrectButtonPress : MonoBehaviour
         if (x & y)
         {
             finalResult.SetActive(true);
+            BGM.Play();
         }
         else
         {
