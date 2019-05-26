@@ -34,3 +34,31 @@
 19/04/19
 - Added objects in the third room to create a science lab theme room
 - Changed the skybox so that the earth is seen from outside the window
+
+29/04/19
+- Imported the safe from blender to Unity and played around with animations to get functionality
+
+30/04/19
+- worked some more on implementing functionality on the safe door
+
+02/05/19
+- Testing rooms to ensure that everything is the right size and interactable objects work as they are supposed to.
+
+04/05/19
+- Added the maze and maze controllers
+- Added background sound to the game
+
+16/05/19
+- Developed scripts for the game's AI
+
+19/05/19
+- Added puzzles in the lab room and the kitchen room
+
+20/05/19
+- Added the voice audio to the game
+
+21/05/19
+- Testing and bug fixing
+
+23/05/19
+- Final testing and debugging
